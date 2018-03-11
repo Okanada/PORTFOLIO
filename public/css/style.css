@@ -6496,44 +6496,45 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   overflow-x: hidden; }
-  body #début {
-    background-image: url(http://clapat.ro/themes/newave-wordpress/wp-content/themes/newave-theme/images/home_pattern.png);
-    padding-top: 60px;
-    width: 100%;
-    height: 650px;
-    margin: auto; }
-  body #insidedebut {
+
+#début {
+  background-image: url(http://clapat.ro/themes/newave-wordpress/wp-content/themes/newave-theme/images/home_pattern.png);
+  padding-top: 60px;
+  width: 100%;
+  height: 650px;
+  margin: auto; }
+  #début #insidedebut {
     margin: auto;
     display: flex;
     flex-direction: column; }
-  body #logopure {
-    padding-bottom: 150px;
-    justify-content: center;
-    padding: 0%; }
-  body .studio {
-    display: inline;
-    padding: 0%; }
-  body .studio-1 {
-    color: #e40202;
-    list-style: none;
-    text-justify: auto;
-    font-size: 400%;
-    font-family: "Ubuntu", sans-serif; }
-  body .agence {
-    color: grey;
-    margin-top: 0px; }
-  body .A {
-    margin: auto !important;
-    margin-top: 30px;
-    text-decoration-line: none;
-    color: white;
-    border: white solid;
-    border-radius: 5px;
-    padding: 8px;
-    font-family: "Ubuntu", sans-serif; }
-  body .A:hover {
-    color: black;
-    background-color: white; }
+    #début #insidedebut #logopure {
+      padding-bottom: 150px;
+      justify-content: center;
+      padding: 0%; }
+    #début #insidedebut .studio {
+      display: inline;
+      padding: 0%; }
+    #début #insidedebut .studio-1 {
+      color: #e40202;
+      list-style: none;
+      text-justify: auto;
+      font-size: 400%;
+      font-family: "Ubuntu", sans-serif; }
+    #début #insidedebut .agence {
+      color: grey;
+      margin-top: 0px; }
+    #début #insidedebut .A {
+      margin: auto !important;
+      margin-top: 30px;
+      text-decoration-line: none;
+      color: white;
+      border: white;
+      border-radius: 5px;
+      padding: 8px;
+      font-family: "Ubuntu", sans-serif; }
+    #début #insidedebut .A:hover {
+      color: black;
+      background-color: white; }
 
 nav {
   box-shadow: -2px 3px 4px 0px #8e737326;
@@ -6547,18 +6548,20 @@ nav {
       display: inline-block;
       flex: 1;
       padding-top: 15px; }
+      nav #nav #navi a {
+        text-decoration-line: none;
+        color: #b5aeae;
+        font-family: "Ubuntu", sans-serif; }
+      nav #nav #navi a:hover {
+        color: black;
+        text-decoration-line: none;
+        font-family: "Ubuntu", sans-serif; }
     nav #nav .nav-logo {
       padding-top: 0 !important; }
-    nav #nav nav > ul > li > a {
-      text-decoration-line: none;
-      color: #b5aeae;
-      font-family: "Ubuntu", sans-serif; }
-    nav #nav nav > ul > li > a:hover {
-      color: black; }
-    nav #nav .logonav {
-      background-color: #1f1d1d;
-      width: 6%;
-      position: absolute; }
+      nav #nav .nav-logo .logonav {
+        background-color: #1f1d1d;
+        width: 6%;
+        position: absolute; }
 
 #section1 {
   background-color: #f5f5f5; }
@@ -6568,24 +6571,20 @@ nav {
   width: 700px;
   margin: 0 auto;
   margin-bottom: 60px; }
-
-#row1 {
-  padding-top: 100px; }
-
-#titrepure {
-  margin: auto; }
-
-#titreagencepure {
-  letter-spacing: 3px;
-  margin-bottom: 15px; }
-
-#span1 {
-  background: none repeat scroll 0 0 #999999;
-  display: block;
-  height: 2px;
-  margin: 0 auto;
-  width: 130px;
-  margin-bottom: 40px; }
+  .container #row1 {
+    padding-top: 100px; }
+    .container #row1 #titrepure {
+      margin: auto; }
+      .container #row1 #titrepure #titreagencepure {
+        letter-spacing: 3px;
+        margin-bottom: 15px; }
+      .container #row1 #titrepure #span1 {
+        background: none repeat scroll 0 0 #999999;
+        display: block;
+        height: 2px;
+        margin: 0 auto;
+        width: 130px;
+        margin-bottom: 40px; }
 
 p {
   color: #999999;
@@ -6593,40 +6592,34 @@ p {
 
 #screens {
   position: relative; }
-
-.small-screen-left {
-  height: auto;
-  position: absolute;
-  z-index: 0;
-  top: 100px;
-  left: 0; }
-
-#img1 {
-  padding-right: 0px;
-  position: relative;
-  width: 300px; }
-
-.small-screen-right {
-  height: auto;
-  position: absolute;
-  z-index: 0;
-  top: 100px;
-  right: 0; }
-
-#img2 {
-  padding-right: 0px;
-  position: relative;
-  width: 300px; }
-
-.big-screen {
-  height: auto;
-  margin: 0 auto;
-  z-index: 100; }
-
-#img3 {
-  position: relative;
-  padding-left: 0px;
-  width: 600px; }
+  #screens .small-screen-left {
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    top: 100px;
+    left: 0; }
+    #screens .small-screen-left #img1 {
+      padding-right: 0px;
+      position: relative;
+      width: 300px; }
+  #screens .small-screen-right {
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    top: 100px;
+    right: 0; }
+    #screens .small-screen-right #img2 {
+      padding-right: 0px;
+      position: relative;
+      width: 300px; }
+  #screens .big-screen {
+    height: auto;
+    margin: 0 auto;
+    z-index: 100; }
+    #screens .big-screen #img3 {
+      position: relative;
+      padding-left: 0px;
+      width: 600px; }
 
 #titre2 {
   letter-spacing: 3px;

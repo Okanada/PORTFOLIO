@@ -12,26 +12,28 @@ nav {
             display: inline-block;
             flex: 1;
             padding-top: 15px;
+
+            a {
+                text-decoration-line: none;
+                color: rgb(181, 174, 174);
+                font-family: $fontfamily;
+            }
+
+            a:hover {
+                color: black;
+                text-decoration-line: none;
+                font-family: $fontfamily;
+            }
         }
 
         .nav-logo {
             padding-top: 0 !important;
-        }
 
-        nav > ul > li > a {
-            text-decoration-line: none;
-            color: rgb(181, 174, 174);
-            font-family: $fontfamily;
-        }
-
-        nav > ul > li > a:hover {
-            color: black;
-        }
-
-        .logonav {
-            background-color: rgb(31, 29, 29);
-            width: 6%;
-            position: absolute;
+            .logonav {
+                background-color: rgb(31, 29, 29);
+                width: 6%;
+                position: absolute;
+            }
         }
     }
 }
