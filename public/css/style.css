@@ -6696,4 +6696,18 @@ col-1 {
 #iconservice {
   font-size: 200%; }
 
+.carouportfolio {
+  border-radius: 25px; }
+
+#sectionportfolio {
+  background-image: url("../../public/img/abstract.png");
+  background-size: cover; }
+
+.footerbg {
+  background-color: rgba(0, 0, 0, 0.302);
+  padding-bottom: 0; }
+
+.fontfoot {
+  font-size: 300%; }
+
 /*# sourceMappingURL=style.css.map */
